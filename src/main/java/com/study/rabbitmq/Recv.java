@@ -10,7 +10,6 @@ public class Recv {
     private final static String QUEUE_NAME = "hello";
 
     public static void main(String[] argv) throws Exception {
-
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("localhost");
         factory.setPort(5672);
